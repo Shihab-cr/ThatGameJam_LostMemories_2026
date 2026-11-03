@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_GhibliWaterURP
+  m_Shader: {fileID: 4800000, guid: ac60c35822f9bb340be81c09fb1c1988, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FoamNoiseTex:
+        m_Texture: {fileID: 2800000, guid: 806a1047ef08a9846b260b7699b97aef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 0fdcea57076da9848af49ecd77288936, type: 3}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DepthMaxDistance: 3
+    - _FoamDistance: 0.1
+    - _FoamSpeed: 0.08
+    - _FoamTiling: 1
+    - _FresnelPower: 5.46
+    - _NormalSpeed: 0.06
+    - _NormalStrength: 0.05
+    - _NormalTiling: 1
+    - _ReflectionStrength: 0.171
+    - _WaterDepth: 0.8
+    - _WaveScale: 1
+    - _WaveSpeed: 1
+    - _WaveStrength: 0.1
+    m_Colors:
+    - _DeepColor: {r: 0.26486292, g: 0.6037736, b: 0.54096943, a: 0.95}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShallowColor: {r: 0.24554999, g: 0.5849056, b: 0.5849056, a: 0.8}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55acf6011891301458a2c736f3dd2eb3, type: 3}
+  m_Name: FolderColorSettings_Perso_Compuomart
+  m_EditorClassIdentifier: FolderColor.Editor::FolderColor.Editor.FolderColorDatabase
+  Mode: 1
+  UserId: 
+  IconEntries:
+  - Guid: 7c60ea3c1244b864587b962f4188b561
+    IconPath: DataGridFolder.png
+    IconColor: {r: 1, g: 0.3915094, b: 0.7403179, a: 1}
+    HighlightName: 1
+    HighlightChildren: 0
+  Entries: []
